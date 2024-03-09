@@ -11,74 +11,31 @@
 {
     "button": {
         "name": "button",
-        "scope": "",
-        "version": "",
-        "defaultScope": "vktrwlt.stylex-library",
+        "scope": "vktrwlt.stylex-library",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/button",
-        "config": {
-            "learnbit-react.stylex/envs/react-stylex@0.0.12": {},
-            "teambit.envs/envs": {
-                "env": "learnbit-react.stylex/envs/react-stylex"
-            }
-        }
+        "rootDir": "my-scope/button"
     },
     "envs/my-react-env": {
         "name": "envs/my-react-env",
-        "scope": "",
-        "version": "",
-        "defaultScope": "vktrwlt.stylex-library",
+        "scope": "vktrwlt.stylex-library",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/envs/my-react-env",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {}
-            },
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.semantics/schema": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "teambit.react",
-                    "name": "react-env-extension",
-                    "version": "1.0.38"
-                }
-            }
-        }
+        "rootDir": "my-scope/envs/my-react-env"
     },
     "provider": {
         "name": "provider",
-        "scope": "",
-        "version": "",
-        "defaultScope": "vktrwlt.stylex-library",
+        "scope": "vktrwlt.stylex-library",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/provider",
-        "config": {
-            "learnbit-react.stylex/envs/react-stylex@0.0.12": {},
-            "teambit.envs/envs": {
-                "env": "learnbit-react.stylex/envs/react-stylex"
-            }
-        }
+        "rootDir": "my-scope/provider"
     },
     "theme": {
         "name": "theme",
-        "scope": "",
-        "version": "",
-        "defaultScope": "vktrwlt.stylex-library",
+        "scope": "vktrwlt.stylex-library",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/theme",
-        "config": {
-            "learnbit-react.stylex/envs/react-stylex@0.0.12": {},
-            "teambit.envs/envs": {
-                "env": "learnbit-react.stylex/envs/react-stylex"
-            }
-        }
+        "rootDir": "my-scope/theme"
     },
     "$schema-version": "17.0.0"
 }
